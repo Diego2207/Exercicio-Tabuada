@@ -10,7 +10,7 @@ public class Tabuada {
 		System.out.println("Escolha um numero: ");
 		int numeroEscolhido = entrada.nextInt();
 		 
-		for(int i = 0; i <= 10; i++ ) {
+		for(int i = numeroEscolhido; i <= 10; i++ ) {
 			System.out.println(numeroEscolhido + "x" + i + "=" + (numeroEscolhido*i));
 		}
 		
